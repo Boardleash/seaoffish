@@ -26,7 +26,7 @@ sudo dnf install podman-compose
 ### Firewall
 In order to reach the site, the firewall needs to allow the appropriate port.  The compose file is already set up for mapping port 48123 to 80, which means that port 48123 is the exposed port for HTTP will need to be allowed.  If you decide to change this port mapping, then the appropriate changes will need to be made to your firewall.  Run the following to allow port 48123:
 ```
-sudo firewall-cmd --allow-port=48123/tcp --permanent
+sudo firewall-cmd --add-port=48123/tcp --permanent
 sudo firewall-cmd --reload
 ```
 
