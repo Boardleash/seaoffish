@@ -1,0 +1,375 @@
+/* EXAMPLE COMMENT IN CSS */
+/* MAIN PAGE STYLING */
+
+a:link {
+  color: #36bfe1;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+.background-image {
+  position: fixed;
+  background-image: url('/images/dark-ocean-background.png');
+}
+
+body {
+  background-color: #3f7183;
+  /*background-color: #009999;*/
+}
+  
+.bodyHome {
+  color: #36bfe1;
+  background-image: url('/images/dark-ocean-background.png');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.buttonHome {
+  background-color: #90aed1;
+  border: 2px solid #006666;
+  border-radius: 6px;
+  color: #093a72;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  width: 10rem;
+}
+
+.buttonHome:hover {
+  background-color: #4f4fca;
+  color: #000000;
+}
+
+caption {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.consumedTable {
+  border: 5px outset;
+  /*border-collapse: collapse;*/
+  margin: 0 auto;
+}
+
+.consumedTableData {
+  background-color: #219fd5;
+  /*border: 1px solid black;*/
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.consumedTableHeader {
+  /*background-color: #219FD5;*/
+  background-color: #8F71E4;
+  border: 1px solid black;
+  font-size: 1.75rem;
+  font-style: italic;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.date {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  padding: 0.2rem;
+}
+
+.fieldsetOne {
+  background-color: #10e1e1;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.fieldsetTwo {
+  background-color: #16c7f3;
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 597px;
+  overflow-y: auto;
+}
+
+.formOne {
+  display: flex;
+  flex-direction: column;
+  left: 5px;
+  position: absolute;
+  top: 500px;
+}
+
+.formOneLabel {
+  font-size: 1.5rem;
+}
+
+.formTwo {
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  position: absolute;
+  top: 500px;
+}
+
+.formTwoLabel {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: -18px;
+  min-height: 8rem;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: italic;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-style: italic;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.h1Main {
+  color: #000000;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Georgia", serif;
+}
+
+.imgH {
+  height: 100px;
+  width: 100px;
+}
+
+.imgMain {
+  height: 300px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.imgTable {
+  float: right;
+  height: 75px;
+  margin-top: -110px;
+  margin-right: 2rem;
+  width: 75px;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+li::before {
+  content: "𓆝";
+  font-size: 5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+}
+
+legend {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  font-size: 2rem;
+  /*text-indent: 2rem;*/
+}
+
+.p1 {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: .5rem;
+}
+
+.p2 {
+  color: #000000;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.radio {
+  margin-left: 1rem;
+}
+
+.reviewTable {
+  background-color: #c863fa;
+  border: 2px solid black;
+  border-radius: 5px;
+  bottom: -35rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.reviewTableData {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+select {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.submit {
+  background-color: #16f57e;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.submit:hover {
+  background-color: #00cc00;
+  color: #000000;
+}
+
+textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: 0;
+  padding: 5px;
+  resize: none;
+  width: 500px;
+}
+
+th {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.totalsTable {
+  border: 5px outset;
+  margin: 0 auto;
+}
+
+.totalsTableData {
+  background-color: #67cdf2;
+  color: #000000;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.totalsTableHeader {
+  background-color: #8F71E4;
+  border: 1px solid black;
+  color: #000000;
+  font-size: 1.75rem;
+  font-style: italic;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* TEST RATING */
+/*
+.star-rating input {
+  display: none;
+}
+
+.star-rating {
+  margin: 50px auto;
+  display: table;
+  width: 350px;
+}
+
+.star-rating label {
+  padding: 10px;
+  float: right;
+  font-size: 44px;
+  color: #eee;
+}
+
+.star-rating input:not(:checked)~label:hover,
+.star-rating input:not(:checked)~label:hover~label {
+  color: #ffc107;
+}
+
+.star-rating input[type="radio"]:checked ~label
+  {
+  color: red!important;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/***************** ANCHOVY PAGE STYLING ******************/
+/***************** MACKEREL PAGE STYLING ******************/
+/***************** SARDINE PAGE STYLING ******************/

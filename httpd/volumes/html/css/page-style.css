@@ -1,0 +1,195 @@
+/* EXAMPLE COMMENT IN CSS */
+/* MAIN PAGE STYLING */
+
+a:link {
+  color: #36bfe1;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+.bodyAnchovy {
+  background-attachment: fixed;
+  background-image: linear-gradient(#016b61, #70b2b2, #9ecfd4, #e5e9c5);
+}
+
+.bodyMackerel {
+  background-attachment: fixed;
+  background-image: linear-gradient(#3674b5, #578fca, #f5f0cd, #fada7a);
+}
+
+.bodySardine {
+  background-attachment: fixed;
+  background-image: linear-gradient(#01204e, #028391, #f6dcac, #feae6f);
+}
+
+.bodyOther {
+  background-attachment: fixed;
+  background-image: linear-gradient(#155e95, #6a80b9, #f6c794, #fff6b3);
+}
+
+.date {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.2rem;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: italic;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-style: italic;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Georgia", serif;
+}
+
+img {
+  display: flex;
+  height: 200px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.imgTable {
+  float: right;
+  height: 75px;
+  margin-top: -10em;
+  margin-right: 2em;
+  width: 75px;
+}
+
+label {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.labelTwo {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 2em;
+  margin-top: -18px;
+  min-height: 5.5em;
+}
+
+legend {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.p1 {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.radio {
+}
+
+.scroll {
+  height: 415px;
+  overflow-y: auto;
+}
+
+/*section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+} --> KEEP THIS IN CASE TO GO BACK TO GRID STYLE*/
+
+section {
+  display: block;
+}
+
+select {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.submit {
+  background-color: #16f57e;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.submit:hover {
+  background-color: #00cc00;
+  color: #000000;
+}
+
+textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 300px;
+  margin: 0;
+  padding: 5px;
+  resize: none;
+  width: 500px;
+}
+
+/* STAR RATING CSS */
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.rating > label {
+  float: right;
+  padding: 0.5em;
+}
+
+.rating > input:checked ~ label,
+.rating > label:hover,
+.rating > label:hover ~ label {
+  color: gold;
+}
+
+.rating > input {
+  display: none;
+}

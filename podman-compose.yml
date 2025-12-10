@@ -1,0 +1,38 @@
+---
+# Podman Compose File for Sea of Fish
+# Boardleash
+
+services:
+  web:
+    build:
+      dockerfile: ./httpd/Dockerfile
+    container_name: sea_of_fish
+    depends_on:
+      - db
+    environment:
+      MYSQL_HOST: db
+    networks:
+      - sardine_network
+    ports:
+      - "48123:80"
+    volumes:
+      - ./httpd/volumes/html:/var/www/html:Z
+
+  db:
+    image: mysql:latest
+    container_name: sardine_mysql
+    environment:
+      - MYSQL_DATABASE=tins
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    networks:
+      - sardine_network
+    volumes:
+      - ./mysql/volumes:/docker-entrypoint-initdb.d:Z
+
+networks:
+  sardine_network:
+    driver: bridge 
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+        - gateway: 172.20.0.1

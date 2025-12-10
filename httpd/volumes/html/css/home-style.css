@@ -1,0 +1,119 @@
+/* EXAMPLE COMMENT IN CSS */
+/* MAIN PAGE STYLING */
+
+a:link {
+  color: #36bfe1;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+.background-image {
+  position: fixed;
+  background-image: url('/images/dark-ocean-background.png');
+}
+
+body {
+}
+
+.bodyHome {
+  color: #36bfe1;
+  background-image: url('/images/dark-ocean-background.png');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bodySuccess {
+  background-attachment: fixed;
+  background-image: linear-gradient(#0046ff, #73c8d2, #f5f1dc, #ff9013);
+}
+
+caption {
+  color: #e5e9c5;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Georgia", serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.totalsTable {
+  margin: 0 auto;
+  width: 30%;
+}
+
+table {
+  border: 5px outset;
+  border-radius: 2px;
+  border-collapse: collapse;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+td {
+  background-color: #70b2b2;
+  border: 1px solid #000000;
+  color: #000000;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+th {
+  background-color: #016b61;
+  border: 1px solid #000000;
+  color: #000000;
+  font-size: 1.5rem;
+  text-align: center;
+}
